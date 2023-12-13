@@ -1,0 +1,26 @@
+.mySwiper .swiper-button-prev::after {
+  position: absolute;
+  margin-top: 18px;
+  left: 40%;
+  content: "prev";
+  z-index: 100 !important;
+  color: #1e3685;
+  font-weight: 500;
+}
+.mySwiper .swiper-button-next::after {
+  position: absolute;
+  margin-top: 18px;
+  right: 40%;
+  content: "next";
+  z-index: 100 !important;
+  color: #1e3685;
+  font-weight: 500;
+}
+
+.swiper-pagination-bullet {
+  background-color: #fff;
+  border: 1px solid #1e3685;
+}
+.swiper-pagination-bullet-active {
+  background-color: #1e3685;
+}

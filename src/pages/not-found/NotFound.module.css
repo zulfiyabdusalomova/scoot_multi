@@ -1,0 +1,32 @@
+.notFoundPage{
+    background-color: #F9FAFE;
+}
+
+.notFound{
+    padding: 9.3rem 0 10rem 0;
+    text-align: center;
+}
+
+.notFoundText{
+    color: #000;
+    font-family: "space age";
+    font-size: 4.2rem;
+    font-weight: 400;
+    line-height: 5rem; 
+}
+
+.notFoundImg{
+    margin: 2.4rem 0 5rem 0;
+}
+
+.notFoundBtn {
+    padding: 2.2rem 2.5rem;
+    background-color: var(--primary);
+    border-radius: 0.5rem;
+    color: var(--white);
+    border: none;
+    font-family: "poppins-regular";
+    font-size: 1.4rem;
+    line-height: 1.2rem;
+    cursor: pointer;
+  }
